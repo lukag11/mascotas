@@ -7,7 +7,6 @@ export const ContainerMain = styled(Main)`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: none;
   }
 `;
 
@@ -16,11 +15,10 @@ export const Containerinfo = styled(Section)`
   gap: 70px;
 
   @media (max-width: 992px) {
-    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    border: 1px solid black;
+    gap: 40px;
+    border: 1px solid red;
   }
 `;
 
@@ -48,7 +46,7 @@ export const TitleInfo = styled.h1`
   }
 
   @media (max-width: 992px) {
-    font-size: 40px;
+    font-size: 30px;
   }
 `;
 
@@ -137,15 +135,36 @@ export const ButtonDonate = styled.button`
       opacity: 1;
     }
   }
+  @media (max-width: 992px) {
+    border: 1px solid red;
+    font-size: 20px;
+  }
 `;
 
-export const TextDonate = styled.h2``;
+export const TextDonate = styled.h2`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+
+  @media (max-width: 992px) {
+    border: 1px solid red;
+    font-size: 13px;
+  }
+`;
 
 export const ContainerCard = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 200px;
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+    border: 1px solid red;
+    font-size: 10px;
+    gap: 5px;
+  }
 `;
 
 export const CardInfo = styled.img`

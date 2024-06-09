@@ -16,20 +16,18 @@ import imgnaranjax from "../../assets/img/logodonacion/astropay.png";
 const informationDonac = () => {
   return (
     <>
-      <ContainerMain>
-        <Containerinfo>
-          <TitleInfo>APOYA NUESTRA LABOR</TitleInfo>
-          <ButtonDonate>Haz tu donación aquí ❤️</ButtonDonate>
-          <TextDonate>
-            Tambien podes hacer tu donacion por estos medios
-          </TextDonate>
-          <ContainerCard>
-            <CardInfo src={imgpaypal} alt="Paypal"></CardInfo>
-            <CardInfo src={imgmercadopago}></CardInfo>
-            <CardInfo src={imgnaranjax}></CardInfo>
-          </ContainerCard>
-        </Containerinfo>
-      </ContainerMain>
+      <Containerinfo>
+        <TitleInfo>APOYA NUESTRA LABOR</TitleInfo>
+        <ButtonDonate>Haz tu donación aquí ❤️</ButtonDonate>
+        <TextDonate>
+          Tambien podes hacer tu donacion por estos medios
+        </TextDonate>
+        <ContainerCard>
+          <CardInfo src={imgpaypal} alt="Paypal"></CardInfo>
+          <CardInfo src={imgmercadopago}></CardInfo>
+          <CardInfo src={imgnaranjax}></CardInfo>
+        </ContainerCard>
+      </Containerinfo>
     </>
   );
 };
