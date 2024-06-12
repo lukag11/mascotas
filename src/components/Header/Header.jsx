@@ -20,8 +20,9 @@ const Header = () => {
         <Navbar isOpen={mContexto.isMenuOpen}>
           <NavbarList>
             <NavbarItem>Inicio</NavbarItem>
+            <NavbarItem>Que Hacemos</NavbarItem>
+            <NavbarItem>Adopta</NavbarItem>
             <NavbarItem>Nosotros</NavbarItem>
-            <NavbarItem>Animales</NavbarItem>
             <NavbarItem>Contacto</NavbarItem>
           </NavbarList>
         </Navbar>

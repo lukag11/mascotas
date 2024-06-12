@@ -18,7 +18,6 @@ export const Containerinfo = styled(Section)`
     justify-content: center;
     align-items: center;
     gap: 40px;
-    border: 1px solid red;
   }
 `;
 
@@ -136,7 +135,6 @@ export const ButtonDonate = styled.button`
     }
   }
   @media (max-width: 992px) {
-    border: 1px solid red;
     font-size: 20px;
   }
 `;
@@ -145,10 +143,9 @@ export const TextDonate = styled.h2`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 40px;
 
   @media (max-width: 992px) {
-    border: 1px solid red;
     font-size: 13px;
   }
 `;
@@ -161,7 +158,7 @@ export const ContainerCard = styled.div`
 
   @media (max-width: 992px) {
     flex-direction: column;
-    border: 1px solid red;
+
     font-size: 10px;
     gap: 5px;
   }
